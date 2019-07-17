@@ -31,10 +31,10 @@ const Navbar = ({ title, icon }) => {
   const guestLinks = (
     <Fragment>
       <li>
-        <Link to='/contact-keeper/register'>Register</Link>
+        <Link to='/register'>Register</Link>
       </li>
       <li>
-        <Link to='/contact-keeper/login'>Login</Link>
+        <Link to='/login'>Login</Link>
       </li>
     </Fragment>
   );
